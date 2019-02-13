@@ -4,7 +4,7 @@
     {
       "name": "client",
       "image": "tux1980/multi-client",
-      "MemoryReservation": 128,
+      "memoryReservation": 128,
       "hostname": "client",
       "essential": false
     },
