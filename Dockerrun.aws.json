@@ -12,7 +12,7 @@
       "name": "server",
       "image": "tux1980/multi-server",
       "hostname": "api",
-      "essential": false;
+      "essential": false,
       "memory": 128
     },
     {
