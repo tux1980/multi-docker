@@ -20,15 +20,14 @@ after_success:
   - docker push tux1980/multi-nginx  
 
 deploy:
-   provider: elasticbeanstalk
-   region: eu-central-1
+   provider: "elasticbeanstalk"
+   region: "eu-central-1"
    app: "multi-docker"
    env: "MultiDocker-env"
    bucket_name: "elasticbeanstalk-eu-central-1-874281246636"
    bucket_path: "multi-docker"
    on:
       branch: master
-    access_key_id:
-      secure $AWS_ACCESS_KEY
-    secret_access_key:
-      secure: $AWS_SECRET_KEY
+   access_key_id: $AWS_ACCESS_KEY
+   secret_access_key:
+     secure: $AWS_SECRET_KEY
