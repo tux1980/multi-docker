@@ -12,7 +12,7 @@ class App extends Component {
         <div className="App">
           <header className="App-header">
             <img src={logo} className="App-logo" alt="logo" />
-            <h1 className="App-title">Juden Tach ihr da drauﬂen!!! Wolli's React Server Modul:) - Fibbi (V2!) Calculater</h1>
+            <h1 className="App-title">Juden Tach ihr da draussen!!! Wolli's React Server Modul:) - Fibbi (V2!) Calculater</h1>
             <Link to="/">Home</Link>
             <Link to="/otherpage">I'll be back!</Link>
           </header>
